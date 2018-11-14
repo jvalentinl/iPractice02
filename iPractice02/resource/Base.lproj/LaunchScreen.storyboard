@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="astronomy" translatesAutoresizingMaskIntoConstraints="NO" id="Gug-ga-zJf">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nasaApi" translatesAutoresizingMaskIntoConstraints="NO" id="cNZ-7s-dwr">
+                                <rect key="frame" x="16" y="20" width="343" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="4Pb-xL-bsa"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the NASA API. The api.nasa.gov catalog is growing" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ESH-KY-3Yh">
+                                <rect key="frame" x="16" y="542" width="343" height="105"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="105" id="S7r-Ka-86s"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cNZ-7s-dwr" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="7dZ-Fy-BoW"/>
+                            <constraint firstAttribute="bottom" secondItem="ESH-KY-3Yh" secondAttribute="bottom" constant="20" symbolic="YES" id="8Pe-3M-Bwy"/>
+                            <constraint firstItem="cNZ-7s-dwr" firstAttribute="trailing" secondItem="ESH-KY-3Yh" secondAttribute="trailing" id="Akq-xR-8Ie"/>
+                            <constraint firstItem="Gug-ga-zJf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="I5m-OS-xbb"/>
+                            <constraint firstItem="Gug-ga-zJf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Lb0-fd-U10"/>
+                            <constraint firstAttribute="trailing" secondItem="Gug-ga-zJf" secondAttribute="trailing" id="Snu-8F-K5L"/>
+                            <constraint firstItem="Gug-ga-zJf" firstAttribute="centerX" secondItem="ESH-KY-3Yh" secondAttribute="centerX" id="Vre-bl-hR3"/>
+                            <constraint firstItem="Gug-ga-zJf" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="YDM-P3-rDU"/>
+                            <constraint firstItem="cNZ-7s-dwr" firstAttribute="leading" secondItem="ESH-KY-3Yh" secondAttribute="leading" id="hKe-0c-e0F"/>
+                            <constraint firstItem="Gug-ga-zJf" firstAttribute="top" secondItem="cNZ-7s-dwr" secondAttribute="top" id="zwd-N7-Gc0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="astronomy" width="3420" height="4560"/>
+        <image name="nasaApi" width="545" height="95"/>
+    </resources>
+</document>
