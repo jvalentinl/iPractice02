@@ -27,6 +27,8 @@
 		7F7E48BC219B91BE00278CA2 /* RoverEyesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E48BB219B91BE00278CA2 /* RoverEyesViewController.swift */; };
 		7F7E48C1219B9EC000278CA2 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E48C0219B9EC000278CA2 /* Rover.swift */; };
 		7F7E48C3219BA0F900278CA2 /* AboutPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E48C2219BA0F900278CA2 /* AboutPhotoViewController.swift */; };
+		E3B0F06A219DB38500A2E2BD /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B0F069219DB38500A2E2BD /* Country.swift */; };
+		E3B0F082219DB6E300A2E2BD /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B0F081219DB6E300A2E2BD /* CountriesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -261,6 +263,8 @@
 		7F7E48BB219B91BE00278CA2 /* RoverEyesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverEyesViewController.swift; sourceTree = "<group>"; };
 		7F7E48C0219B9EC000278CA2 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
 		7F7E48C2219BA0F900278CA2 /* AboutPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPhotoViewController.swift; sourceTree = "<group>"; };
+		E3B0F069219DB38500A2E2BD /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		E3B0F081219DB6E300A2E2BD /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -395,6 +399,7 @@
 				7F7E48B7219B895F00278CA2 /* Photo.swift */,
 				7F7E48B9219B8A3800278CA2 /* Camera.swift */,
 				7F7E48C0219B9EC000278CA2 /* Rover.swift */,
+				E3B0F069219DB38500A2E2BD /* Country.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -405,6 +410,7 @@
 				7F7E4823219B6CDD00278CA2 /* ViewController.swift */,
 				7F7E48BB219B91BE00278CA2 /* RoverEyesViewController.swift */,
 				7F7E48C2219BA0F900278CA2 /* AboutPhotoViewController.swift */,
+				E3B0F081219DB6E300A2E2BD /* CountriesViewController.swift */,
 			);
 			path = viewControllers;
 			sourceTree = "<group>";
@@ -746,9 +752,11 @@
 				7F7E48C3219BA0F900278CA2 /* AboutPhotoViewController.swift in Sources */,
 				7F7E48BA219B8A3800278CA2 /* Camera.swift in Sources */,
 				7F7E4822219B6CDD00278CA2 /* AppDelegate.swift in Sources */,
+				E3B0F082219DB6E300A2E2BD /* CountriesViewController.swift in Sources */,
 				7F7E48C1219B9EC000278CA2 /* Rover.swift in Sources */,
 				7F7E48BC219B91BE00278CA2 /* RoverEyesViewController.swift in Sources */,
 				7F7E482A219B6CDD00278CA2 /* iPractice02.xcdatamodeld in Sources */,
+				E3B0F06A219DB38500A2E2BD /* Country.swift in Sources */,
 				7F7E48B8219B895F00278CA2 /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -943,6 +951,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LBQKN3WJ4J;
 				INFOPLIST_FILE = iPractice02/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -962,6 +971,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LBQKN3WJ4J;
 				INFOPLIST_FILE = iPractice02/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
